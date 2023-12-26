@@ -144,14 +144,14 @@ button img {
   flex-direction: column;
 
   max-width: 1120px;
-  padding: 4rem 2rem;
+  padding: 1rem 8rem;
   margin: auto;
 }
 
 .receitas-cabecalho {
   display: flex;
   flex-direction: column;
-  gap: 0.5rem;
+  gap: 1rem;
 }
 
 .receitas-titulo {
@@ -159,6 +159,7 @@ button img {
   font-family: Montserrat;
   font-size: 2rem;
   font-weight: 700;
+  
 }
 
 .receitas-subtitulo {
@@ -166,14 +167,15 @@ button img {
   font-family: Inter;
   font-size: 1rem;
   font-weight: 400;
+
 }
 
 .receitas-card-container {
-  padding: 0rem 10rem;
+  padding: 1.5rem 10rem;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  gap: 2rem;
+  gap: 5rem;
 }
 
 .receitas-card {
@@ -184,6 +186,7 @@ button img {
   flex-direction: column;
   gap: 0.125rem;
   flex-basis: 29rem;
+  margin-top: 2rem;
 }
 
 .receitas-card-cabecalho {
